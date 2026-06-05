@@ -1,0 +1,51 @@
+Illusion of Gaia - Sprint Button (for Beta) Changelog
+===============================================================================
+
+v1.0.0b to v1.0.0e (08/15/2023)
+[SUMMARY]
+  Added some missing information to the readme.  That's it.
+
+[CHANGES]
+_b_
+- Added information about a tiny graphical glitch.
+
+_c_
+- Added legal information pertaining to game series
+- Added special thanks to C-Dude and Raeven0
+
+_d_
+- Added relevant URLs for both C-Dude and Raeven0
+
+_e_
+- Added the missing Index flavor text
+ (I was REALLY not prepared for this upload, was I.)
+
+--
+v1.0.0 (08/15/2023) - Initial Release!
+[SUMMARY]
+  Created the downloadable package.
+
+[CHANGES]
+- Created an IPS patch from the clean and modified ROMs
+- Created two documents to go with the patch
+- Updated the "Addresses" document with notes and things
+--
+
+v0.9.9 (08/03/2023)
+[SUMMARY]
+  Created the final ROM hack.
+
+[CHANGES]
+- Located the missing values that lead to proper code
+- Modified the altered values to point to the correct code
+- FINALLY made a fully-functional transplant of C-Dude's work
+--
+
+v0.5.0 (08/03/2023)
+[SUMMARY]
+  Started work on the ROM hack.
+
+[CHANGES]
+- Searched for and located the address values in the prototype / beta ROM
+- Transplanted C-Dude's Sprint code
+- Forgot to change some important values, causing things to fail

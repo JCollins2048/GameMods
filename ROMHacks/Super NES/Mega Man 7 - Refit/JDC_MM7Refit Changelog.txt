@@ -1,0 +1,480 @@
+Mega Man 7 Refit Changelog
+===============================================================================
+
+v1.2.0 (07/10/2021) -- Fourth public release!
+[SUMMARY]
+  Wouldn't you know it?  More graphic changes!  Wowie!
+  Also?  I decided to add individual patches for those who want to use bits-
+  and-pieces in other Mega Man 7/Rockman 7 hacks.
+
+[CHANGES]
+- The following graphics have been changed:
+  _GENERAL/GLOBAL_
+  - Changed the 1up to a style-matched NES-style head
+   (The graphic is, more-or-less, just straight from the Game Gear game.)
+  - Changed the Energy Capsules to style-matched NES-style graphics
+   (The Weapon Capsules look a little Christmas-y, but I think it works.
+    IDEALY, I'd want to have them change palettes with the player, though...)
+  - Uncharged Mega Buster shots are one pixel shorter
+   (Again, to make them look more like their NES... "lemon"... counterpart.)
+
+  _WEAPON SCREEN_
+  - Updated the 1up menu graphic to match the new 1up item
+   (It looked... POSSESSED... before.  Now, it looks fine.)
+
+  _TITLE SCREEN_
+  - Removed the space between "Pass" and "Word"
+   (This isn't a graphical change.  Just a hex change.)
+
+- The following text has been changed:
+  - Rewrote the questionable part of the ending
+   (It's a little more fitting for both Wily and Rock's characters, now.)
+
+- Other Changes
+  - Broke the ROM hack down into individual patches for use with other hacks
+   (It seemed like my complete hack was breaking other hacks, so I figured I
+    should give people the option to pick-and-choose.
+    A "complete" patch is STILL available, however!)
+  - Updated the Readme to reflect the new assortment of available patches
+
+[NOTES]
+- Due to how the Energy Meters work, it's not really feasible to try and make
+  them mimic the NES-style (black background) ones.  I tried just deleting the
+  tops and bottoms, but that revealed that the meters work by OVERLAYING TILES
+  rather than using individual ones, as per the NES games.  So... that's fun.
+----------
+
+v1.1.7 (07/09/2021 (!))
+[SUMMARY]
+  Changed s'more text strings.
+
+[CHANGES]
+- The following text has been altered:
+  - The start-up screen now reads "licensed" instead of "licenced"
+  - Auto says some different things after getting his Hyper Bolt back
+   (No real reason.  I just felt like changing things up~)
+  - Auto's helmet dialogue in the intro stage has been changed for clarity
+   (Again, no real reason.  Just wanted to.)
+- Added a missing change on the v1.1.6a update: Burstman's damage data changes
+----------
+
+v1.1.6b (01/27/2018)
+[SUMMARY]
+  Purely a changelog change.  Just forgot to add a couple of things WAY early.
+
+[CHANGES]
+- Added the altered values for Megaman's Buster and I-frames to the first entry
+ (Thanks, SCD!)
+----------
+
+v1.1.6a (12/30/2017)
+[SUMMARY]
+  After doing some testing, I've decided that people were right about making
+  the Charge Shot do more damage to enemies.
+  Also, I rebalanced the weapons.  Slightly.
+
+[CHANGES]
+- The following damage data changes have been made:
+  _ENEMIES/SUB-BOSSES/BASS (INTRO)_
+  - FULLY-Charged Shots do 6 damage (up from 4)
+   (This makes the charged shot CONSIDERABLY more useful.)
+  - WHOLE Freeze Cracker does 4 damage (up from 3 (wut))
+    - SHATTERED Freeze Cracker does 2 damage (down from 3)
+  - SMALL Noise Crush does 2 damage (down from 4)
+
+  _BURSTMAN_
+  - SPLINTERED Freeze Cracker reverted back to base damage (3, up from 2)
+  - PLANTED Danger Wrap reverted back to base damage (0, down from 1)
+   (I honestly don't remember why I even changed it.)
+
+[NOTES]
+- I was going to have Scorch Wheel do 4 damage (down from 8)... but, after
+  actually TESTING it, I decided that it wasn't a very good idea.
+- For some strange reason, enemies in this game have DOUBLE the amount of
+  health that they should.  To compensate, the damage data chart for enemies
+  makes most weapons do damage in multiples of 2.
+  Thus, the above values ARE correct, even if it doesn't seem like it.
+  Interestingly, the Forte Buster does 1 damage, in Rockman & Forte, while
+  the Rock Buster and "no weapon energy" shots do 2!
+----------
+
+v1.1.5b (03/13/2017)
+[FIXES]
+- Fixed a couple of typos in the changelog
+ (receieved -> recieved) and (frmo -> from)
+ (Thanks, Bohepans!)
+----------
+
+v1.1.5a (03/12/2017, same day)
+[SUMMARY]
+  Little changes, little fixes...
+
+[CHANGES]
+- The following graphics have been changed:
+  _GENERAL/GLOBAL_
+  - Changed the 4-color Capcom logo to the one from Mega Man 6
+  - Replaced the following Mega Man 10 text font characters with
+    Mega Man 6 counterparts:
+    Apostrophe ('), comma (,), colon (:), copyright symbol (©)
+  - Replaced the Mega Man 10 text font semi-colon (;) character with a custom
+    Mega Man 6-styled semi-colon
+  - Removed the shading from the copyright symbol
+
+  _WEAPON SCREEN_
+  - The following secondary screen items have had their initials changed:
+    Rescue Service (RS) -> Beat's Whistle (BW)
+    Punch Item (?) (PU) -> Rocket Buster (RB)
+   (Thanks for the inspiration, Bohepans!)
+  - Changed the 1up icon to a 16-bit-styled edit of the NES graphic
+   (I may change this back in the future if people really don't care for it.)
+
+[FIXES]
+- Nudged the question mark (?) over by one pixel
+----------
+
+v1.1.3 (03/12/2017)
+[SUMMARY]
+  Fixing a change that I made which seemingly got reverted later on.
+
+[FIXES]
+- Protoshield now plays sound 1A (normal deflection) when deflecting things...
+  for REALS this time!
+ (This apparently got reverted some time after v1.0.6...)
+----------
+
+v1.1.2 (02/25/2017, same day) -- Third Public Release!
+[SUMMARY]
+  Fixed some minor things that I missed before.
+
+[FIXES]
+- The following graphics have been changed:
+  _TITLE SCREEN_
+  - The word "REFIT" has been redone to look less horrible (Thanks, Bohepans!)
+
+  _GET WEAPON SCREEN_
+  - The word "REFIT" has been redone a little to match the title screen
+
+- The following items received revised descriptions in Big Eddie's shop:
+  - Auto now tells you the CORRECT function of Weapon Tanks
+   (Thanks again, Bohepans!)
+----------
+
+v1.1.0 (02/25/2017) -- Second Public Release!
+[SUMMARY]
+  Did a little tinkering to make the rest of the cutscene text skippable.
+
+[CHANGES]
+- You can now skip/speed up certain parts of dialogue:
+  - All Weapon Get cutscenes
+  - All Light Lab cutscenes (including weapon explanations)
+  - The post-Wily battle cutscene (before the ending)
+- Sped up Megaman's out-of-character outburst in the post-Wily battle scene
+
+[FIXES]
+- Fixed a typo in the changelog (recieved -> received)
+- Fixed a typo in the Readme (invulernability -> invulnerability)
+----------
+
+v1.0.8 (02/24/2017)
+[SUMMARY]
+  Fixed a couple oversights and did some text editing.
+
+[CHANGES]
+- The following items received revised descriptions in Big Eddie's shop:
+  - Rush Jet is a bit more descriptive
+  - Rush Search tells you EVERYTHING it can do
+  - Hyper Rocket Buster is a bit more accurate
+  - Exit Unit is named
+  - The Tank item descriptions look a little nicer, too
+- You can now skip/speed up certain parts of dialogue:
+  - Non-critical parts of the intro stage
+   (after Auto stops and most of the Dr. Light conversation)
+  - Protoman's battle dialogue
+  - Both encounters with Bass in the Wily Stages
+  - All the non-weapon Light Lab cutscenes
+
+[FIXES]
+- Added the shadow to the CORRECT "waiting for input" cursor
+ (Turns out the US ROM still uses the Japanese text cursor for that.)
+- [VANILLA BUG] Moved cursor into dialogue box in Wily Stage 2 Bass fight
+----------
+
+v1.0.6 (02/23/2017, later that day)
+[SUMMARY]
+  Once more, from the top!  DS figured out the code for Rush/Protoshield.
+
+[CHANGES]
+- Protoshield now plays sound 1A (normal deflection) when deflecting things
+
+[FIXES]
+- Protoshield now plays a noise when deflecting things again
+ (You da man, DarkSamus993!)
+----------
+
+v1.0.5 (02/23/2017)
+[SUMMARY]
+  And again, DarkSamus993 saves me a bunch of time and frustration by giving
+  me the answers to my "disable Rush collision" problems!
+  Also, some other little things.
+
+[CHANGES]
+- Rush (Coil, Jet, Search) no longer flinches when bumping into an enemy
+ (Huge thanks AGAIN, DarkSamus993!)
+  This does have a side-effect of making the Protoshield silent, however
+ (See the Bugs section of the Readme for more details)
+- The following graphics have been changed:
+  _MEGA MAN/BASS_
+  - The Charge Shot sparks have been put back into their bank
+   (The Charge Shot spark EFFECT is still disabled, however.)
+----------
+
+v1.0.1 (02/22/2017, later that day)
+[SUMMARY]
+  The Charge Shot sparks have been COMPLETELY eliminated from the game!
+ (In areas which were sprite-heavy (such as any area with a DeliPipi or the
+  Wily Machine fight), there was still sprite flicker when charging.  The code
+  which generates the sparks has now effectively been disabled.)
+
+[FIXES]
+  _MEGA MAN/BASS_
+    - The Charge Shot sparks have been DISABLED rather than erased
+     (Huge thanks to DarkSamus993 to finding the solution to this one!)
+----------
+
+v1.0.0 (02/22/2017) -- Initial Public Release!
+[SUMMARY]
+  Decided to put off releasing it until today.  Had a very busy Feb. 21st.
+  Also, fixed a couple of very minor things.
+
+[FIXES]
+- The following graphics have been changed:
+  _GENERAL/GLOBAL_
+  - Fixed an overhanging pixel from the comma in the dialogue font
+   (Since it was in character 2C (<), it's only noticeable in the ending,
+    but eh...)
+    - Also added a shadow to the "Waiting for input" cursor
+----------
+
+v0.9.0 (02/21/2017)
+[SUMMARY]
+  A few more changes before I finally release this sucker.
+
+[CHANGES]
+- The following graphics have been changed:
+  _TITLE SCREEN_
+  - The options font has been changed to the NES Mega Man font
+
+  _WEAPON SCREEN_
+  - The weapon/item name fonts have been changed to the Mega Man 4-6
+    weapon screen font
+
+  _GENERAL/GLOBAL_
+  - The dialogue font now has a drop shadow
+   (I originally thought it looked ugly... but it looks fine today.  Weird.)
+
+  _PASSWORD SCREEN_
+  - The digits font has been changed to the NES Mega Man font
+  - The dot matrix font has been changed to a double-sized, dot matrix variant
+    of the NES Mega Man font
+
+  _GET WEAPON SCREEN_
+  - The word "REFIT" now appears on the VII in the "MEGA MAN VII" logo
+----------
+
+v0.8.0 (02/15/2017)
+[SUMMARY]
+  Did some graphical work and changed the title again.
+ (Was previously "Retrograde X," but is now "Refit".)
+
+[CHANGES]
+- The following graphics have been changed:
+  _TITLE SCREEN_
+  - The word "Refit" now appears on the VII in the "MEGA MAN VII" logo
+
+  _MEGA MAN/BASS_
+  - The Charge Shot sparks have been erased
+
+  _GENERAL_
+  - The dialogue font has been changed to the NES Mega Man font
+  - Replaced the Yen symbol on the dialogue font with a one-character "r."
+
+- The following text has been changed.
+  - Edited all instances of "DR. " to be "Dr."
+   (The spacing is exactly as shown.)
+  - Changed "ENERGY EQUALIZER" to "ENERGY BALANCER"
+  - Changed all instances of "THIS IS A X-CAN." to "A/AN [function] TANK."
+----------
+
+v0.7.2 (01/31/2017)
+[SUMMARY]
+  Found a mistake I'd made and fixed it.
+
+[FIXES]
+- The following changes have been made to the following bosses (SPOILERS):
+  _BURSTMAN_
+  - SHATTERED Freeze Cracker does 2 damage (down from 3) FOR REAL this time
+   (I said that I'd implemented this a few versions ago.  I did not.  Oops.)
+----------
+
+v0.7.0 (01/30/2017)
+[SUMMARY]
+  DarkSamus993 helped implement the weaknesses I ORIGINALLY planned.
+  He also completely re-coded the boss damage tables.
+ "All that was needed after relocating the routines was to add a compare/
+  branch for each new weapon." - DarkSamus993
+
+  Also, the ROM hack is now called "Retrograde X," due to DarkSamus' becoming
+  a bit more directly involved in things.
+
+[CHANGES]
+- The boss weakness routines and damage data charts have been relocated to some
+  previously empty space in the ROM
+ (This was done to allow more flexibility with boss vulnerabilities.)
+- The following changes have been made to the following bosses (SPOILERS):
+  _BURSTMAN_
+  - Wild Coil does 0 damage again (back down from 1 and 1)
+  - Rocket Buster reverted back to base damage (0, down from 1)
+
+  _SPRINGMAN_
+  - Wild Coil reverted back to previous damage (0 and 0, down from 1 and 1)
+  - Rocket Buster reverted back to previous damage (0, down from 1)
+----------
+
+v0.6.0 (01/23/2017)
+[SUMMARY]
+  Managed to fix Brust and Spring's weird behavior with some weapons.
+
+[CHANGES]
+- The following changes have been made to the following bosses (SPOILERS):
+  _BURSTMAN_
+  - Wild Coil reverted back to base game damage (1 and 1)
+  - Rocket Buster does 1 damage (up from 0)
+
+  _SPRINGMAN_
+  - Wild Coil does 1 damage (up from 0 and 0)
+  - Rocket Buster does 1 damage (up from 0, because never mind)
+
+[FIXES]
+- Burstman no longer gains invulnerability frames from his immunities
+ (His Wild Coil immunity had to be sacraficed for this to happen.)
+- Springman no longer gains invulnerability frames from his immunities
+ (Additional vulnerabilities had to be added for this to happen.)
+----------
+
+v0.5.2 (01/22/2017)
+[SUMMARY]
+  Changed Protoman's "weakness flinch."
+
+[CHANGES]
+- Protoman now flinches from his NEW weakness instead of a Charged Shot
+----------
+
+v0.5.0 (01/20/2017) -- Initial test version!
+[SUMMARY]
+  The very first version of "Mega Man 7 Retrograde."
+  Made a couple of changes to Rock and HUGE changes to the boss damage data.
+
+[CHANGES]
+- The following changes have been made to Megaman:
+  - The Mega Buster reaches half charge at 35 frames (down from 60)
+  - The Mega Buster reaches full charge at 83 frames (down from 110)
+  - After a hit, Megaman is invulnerable for 87 frames (up from 60)
+ (These are the same values used in Mega Man 5.)
+
+- The following changes have been made to the following bosses (SPOILERS):
+  _PROTOMAN_
+   (I took a bit of inspiration from his Mega Man 3 weaknesses, here.)
+  - Charged Shot does 3 damage (up from 2)
+  - Thunder Bolt, Wild Coil, and Scorch Wheel do 0 damage (down from 1)
+  - Junk Shield and ABSORBED Noise Crush do 2 damage (up from 1)
+  - Rocket Buster does 4 damage (up from 1)
+
+  _FREEZEMAN_
+  - Charged Shot and Rocket Buster do 3 damage (up from 2)
+  - Scorch Wheel does 4 damage (up from 3)
+  - REVOLVING Junk Shield does 3 damage (down from 4)
+    - LAUNCHED Junk Shield does 6 damage (up from 4 because it's hard to do)
+  - Slash Claw does 2 damage (up from 1, because ice carving)
+
+  _TURBOMAN_
+  - HALF-Charged Shot does 2 damage (up from 1, because why not)
+    - FULLY-Charged Shot does 3 damage (up from 2)
+  - Rocket Buster does 4 damage (up from 2, because Street Fighter II)
+
+  _SLASHMAN_
+  - Charged Shot and Rocket Buster do 3 damage (up from 2)
+  - SHATTERED Freeze Cracker does 3 damage (down from 4)
+
+  _SHADEMAN_
+  - Charged Shot does 3 damage (up from 2)
+  - PLACED Danger Wrap does 2 damage (up from 1)
+
+  _BURSTMAN_
+  - Charged Shot does 3 damage (up from 2)
+  - Noise Crush does 0 damage, despite what it looks like (down from 1 and 2)
+     (See below for explanation on what this means.)
+  - Wild Coil does 0 damage, despite what it looks like (down from 1 and 1)
+  - SHATTERED Freeze Cracker does 2 damage (down from 3)
+  - PLACED Danger Wrap does 1 damage, sometimes twice! (up from 0)
+  - Slash Claw does 2 damage (up from 1)
+
+  _SPRINGMAN_
+  - HALF-Charged Shot does 2 damage (up from 1, because light-weightedness)
+    - FULLY-Charged Shot does 3 damage (up from 2)
+  - BUBBLE Danger Wrap does 0 damage (down from 1)
+    - PLACED Danger Wrap does 2 damage (up from 1)
+  - Rocket Buster does 0 damage, despite what it looks like (down from 2,
+  - because what do you THINK would happen if you tried to punch a spring?)
+  - Slash Claw does 6 damage (up from 4)
+
+  _GUTSMAN G_
+  - WHOLE Freeze Cracker does 1 damage (up from 0 and 0)
+  - Thunder Bolt does 1 damage (up from 0 and 0)
+  - Scorch Wheel does 2 damage (up from 0)
+  - Rocket Buster does 1 damage (down from 2)
+  - PLACED Danger Wrap does a WHOPPING 10 DAMAGE (up from 0)
+  - Slash Claw does 1 damage (down from 2)
+
+  _WILY CAPSULE_
+  - CHARGED Wild Coil does 3 damage (up from 2)
+
+  _GAMERIZER_
+  - WHOLE Freeze Cracker does 2 damage (up from 0, because kaiju)
+    - SHATTERED Freeze Cracker does 1 damage (up from 0)
+  - Wild Coil does 1 damage (down from 2 and 3, because I'm a jerk?)
+
+  _BASS (Wily Stage 1)_
+  - HALF-Charged Shot does 2 damage (up from 1)
+    - FULLY-Charged Shot does 3 damage (up from 2)
+  - ABSORBED Noise Crush does 4 damage (up from 2)
+  - PLACED Danger Wrap does 3 damage (up from 2)
+
+  _SUPER BASS (Wily Stage 2)_
+  - SMALL Noise Crush does 1 damage (down from 2)
+  - PLACED Danger Wrap does 3 damage (up from 2)
+
+  _HANNYANED²_
+  - Charged Shot does 2 damage (up from 1)
+  - LAUNCHED Junk Shield does 4 damage (up from... 0?!)
+
+  _WILY MACHINE 7_
+  - Thunder Bolt does 1 damage (down from 2)
+  - Scorch Wheel does 4 damage (up from 2)
+  - Danger Wrap does 1 damage (up from 0)
+
+  _NOTE ABOUT THE "Despite what it looks like" ENTRIES_
+    I made it so Noise Crush and Wild Coil don't harm Burstman but a placed
+    Danger Wrap mine will.  Using Noise Crush or Wild Coil still triggers his
+    I-frame state and plays both the "hurt" and the "blocked attack" noises.
+    Same goes for Springman and his new invulnerability, the Rocket Buster.
+    Inversely however, using Danger Wrap (mines) against Burstman will fail to
+    trigger his I-frame state, as well as hitting him twice (due to the cluster
+    of explosions) and allowing for further damage.
+
+    Quite frankly, I have no idea why this happens.  It doesn't happen with any
+    of the other bosses with new vulnerabilities (which mostly consists of the
+    fortress bosses anyway...) or invulnerabilities, so I'm just kinda left
+    scratching my head.
+    I should probably test this more, in fact... see if this is a global thing
+    or just limited to specifically the two Robot Masters sitting across the
+    way from each other in-terms of data and capsule location.

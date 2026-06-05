@@ -1,0 +1,33 @@
+Super Mario Bros: Definitive Tweaks
+List of changed values and their related addresses.
+(Does not include changed graphics.)
+--
+
+[SPINY EGG BEHAVIOR FIX]
+  Orig. Address: 0x4444 -- SMB2FDS Address: 0x51CE
+DE MMC3 address: 0xB254 -- DE VRC3 Address: 0xB26A
+
+  No Aim/Bounce - 20 48 B1 A0 02 95 58 C9 00 30 01 88
+ Yes Aim/Bounce - A0 02 95 58 C9 00 30 01 88 20 48 B1
+
+Credit: doppelganger's "SMBDis"
+       (https://www.romhacking.net/documents/344/)
+--
+
+[WARP ZONE SCROLL LOCK FIX]
+  Orig. Address: 0x37BB -- SMB2FDS Address: 0x44B5
+DE MMC3 address: 0xA484 -- DE VRC3 Address: 0xA497
+
+  No Stop - 25 B5 D0 F4 8D 23 07 AD
+ Yes Stop - C9 00 D0 F4 8D 23 07 AD
+
+Credit: Displaced Gamers?
+       (https://www.youtube.com/watch?v=61m5MiyC17s)
+--
+
+[PLAYER PALETTES]
+  Orig. Address: 0x05E7 -- SMB2FDS Address: 0x8793 (0x26D5 for Fiery Mario)
+DE MMC3 address: 0x8516 -- DE VRC3 Address: 0x8529
+
+ Classic - 22 16 27 18 22 30 27 19 22 37 27 16 22 37 27 16
+  Unique - 22 16 27 18 22 1A 27 18 22 37 27 16 22 30 27 19

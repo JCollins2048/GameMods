@@ -1,0 +1,27 @@
+Super Mario Bros: Definitive Tweaks ROM Hack Changelog
+===============================================================================
+
+v1.0.0 (07/12/2024) - Initial Release!
+[SUMMARY]
+  Created and tested all the patches.
+
+_Spiny Egg Behavior Fix_
+- Researched the values of the corrected Spiny Egg behavior code and applied
+  them to the MMC3 and VRC3 versions of SMB1DE.
+
+_Warp Zone Scroll Lock Fix_
+- Researched the values of the corrected Spiny Egg behavior code and applied
+  them to the MMC3 and VRC3 versions of SMB1DE.
+
+_Super Mario Bros. Graphics_
+- Ripped the graphic tiles from SMB1DE and overwrote most of them with their
+  Super Mario Bros. equivalents.
+ (The unique Super Mario Bros. 2 cloud platform, and the new door and Princess
+  sprites were left alone as there is no SMB1 equivalents for those.)
+- Removed the shading from the HUD font's star graphic.
+
+_Super Mario Bros. Luigi Colors_
+- Located the palette addresses for Luigi and changed them to their SMB1
+  equivalents.
+ (I'd try and figure out how to disable his physics, but that would completely
+  defeat the purpose of having a "Luigi Game" mode.)

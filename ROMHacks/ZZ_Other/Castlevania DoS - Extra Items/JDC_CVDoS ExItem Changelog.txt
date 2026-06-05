@@ -1,0 +1,125 @@
+Castlevania: Dawn of Sorrow Extra Items Changelog
+===============================================================================
+
+v1.0.4 (05/05/2022)
+[SUMMARY]
+  Fixed another one of Konami's goofs.  Though, it might've been intentional?
+  
+[CHANGES]
+_GENERAL CHANGES_
+- Changed the "enemy I-Frames" of the Alucard Sword from 12 to 14.
+ (A bit of explanation on this one:
+  In the "DSVanias", each weapon has what LagoLunatic calls an "IFrames" count.
+  As Lago explains: "An enemy hit by this weapon will be invulnerable to
+  weapons for this number of frames."
+  When Konami added the Alucard Sword to Dawn of Sorrow, they lowered the
+  "IFrames" for the weapon for some reason.  I honestly didn't notice until
+  Oersted accidentally brought it to my attention!
+  Ultimately, this shouldn't affect normal gameplay as Alucard can only swing
+  the weapon every 18 frames anyway.)
+
+_README FILE_
+- Added a bigger explanation on why this hack exists.
+ (It seemed like a good thing to add, considering.)
+- Added some Q&As regarding some "unobtainable" weapons.
+--
+
+v1.0.3 (03/11/2022) -- Initial Release!
+[SUMMARY]
+  Changed Alucard's dive-kick and a couple of Julius Mode Soul names.
+  
+[CHANGES]
+_GENERAL CHANGES_
+- Changed the following Julius Mode "Soul" names:
+  "Cross" -> "Crucifix"
+  "Grand Cruz" -> "Grand Cross"
+ (Apparently, "Grand Cruz" is the pillar of light version.
+  Also: "Crucifix" just sounds cooler and helps differentiate that Soul.)
+
+_JULIUS MODE_
+- Changed Alucard's dive-kick animation to the correct one from Symphony
+ (For some reason, Dawn used his "bare hands" jump-kick animation?  Weird.)
+--
+
+v1.0.0 (03/10/2022)
+[SUMMARY]
+  Pretty much did EVERYTHING ELSE I was meaning to do with this mod, PLUS a
+  lot of stuff that I thought of while editing things.
+
+[CHANGES]
+_GENERAL CHANGES_ 
+- Changed the attack animation of Alucard Sword to use the "Fast Stab" animation
+ (This makes its attack speed for Soma comparable to Alucard's modified speed.)
+
+- Changed the attack animation of Vampire Killer to use "Spear" animation
+ (It still looks a little odd, but I think it looks better this way.)
+  
+- Added Laevatain's "Explosion" Special Attack to the Vampire Killer
+ (Mostly because other games have a "flame whip" special for the weapon.
+  And yes, Julius can use this move, too.  That was an amusing side-effect.)
+
+- Added the following items as collectables in the game:
+  - Bare Knuckles (Prologue, unskippable)
+  - Vampire Killer (Mine of Judgement, first room)
+  - Alucard Sword (The Abyss, Menace chamber)
+ (In order to collect the latter two, the player needs to intentionally ignore
+  certain other items in the game.  
+  - To get the Vampire Killer, never collect the Handgun (VarA $0075)
+  - To get the Alucard Sword, never collect the Short Sword (VarA $0069)
+  I did it this way because mostly for laughs.)
+
+- Added the following "Souls" as collectables in the game:
+  - Soul of Bat (The Pinnacle, in the throne room)
+  - Holy Flame (Garden of Madness, outside Dario's room)
+  - Blue Splash (Lost Village, in Tear of Blood mirror room)
+  - Holy Lightning (Subterranean Hell, "Ring the Bell" room)
+  - Cross (Dark Chapel, big outside area where Kotetsu was)
+  - Holy Water (Wizardry Lab, in Rosary mirror room)
+  - Grand Cruz (Mine of Judgement, first room)
+ (The player doesn't have to do anything special to get these Souls.)
+
+- Moved Kotetsu katana down from its platform
+ (It's really not THAT much of an upgrade…  Why hide it like that?)
+
+_JULIUS MODE_
+- Modified Alucard's attack animations to increase his attack speed
+ (Basically, I moved some of his lingering "swing" sprites over to his
+  "end of attack" animations.  This results in Alucard being able to swing
+  his weapon or move after only 15 frames instead of 27.)
+  
+- Altered Alucard's jump attack animations to increase his attack speed
+ (Originally 8, now 4.
+  This makes his Alucard Sword Special play at the correct speed.)
+
+- Played around with Alucard's afterimage to try and make it look less "evil"
+ (I ultimately failed due to limits of the editor, but I think it looks NICER.)
+--
+
+v0.2.5 (12/03/2021)
+[SUMMARY]
+  Changed how Soma handles the Alucard Sword and made some additions to the
+  otherwise Julius Mode-exclusive "Souls" and items.
+
+[CHANGES]
+_GENERAL CHANGES_
+- Changed the attack animation of Alucard Sword to use the "Punch" animation
+ (This makes it so Soma can swing the sword VERY fast.)
+
+- Added names to the following "Souls":
+  Soul of Bat (Alucard),
+  Holy Flame, Blue Splash, Holy Lightning (Yoko),
+  Cross, Holy Water, Grand Gruz (Julius)
+
+- Added descriptions to the following items / "Souls":
+  Bare Knuckles, Alucard Sword, Vampire Killer,
+  Soul of Bat, Holy Flame, Blue Splash, Holy Lightning,
+  Cross, Holy Water, Grand Cruz
+
+- Changed description of "Hell Fire" Soul to something more descriptive
+ (The original message was just "Congratulations.")
+ 
+- Added unique sprites for Bare Knuckles, Vampire Killer, and Alucard Sword
+ (All ripped from other games.  The "Bare Knuckles" one, in particular, is
+  just a recolored Jeweled Knuckles sprite from Symphony.
+  Incidentally, to make space, I had to delete the graphic for the Aquarius
+  robe… which was just a tiny modification of the Elfin / Wyrm Robe anyway.)

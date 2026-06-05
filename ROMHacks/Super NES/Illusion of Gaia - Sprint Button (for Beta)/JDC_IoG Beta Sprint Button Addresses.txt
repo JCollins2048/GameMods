@@ -1,0 +1,57 @@
+Illusion of Gaia - Sprint Button (for Beta) Addresses
+===============================================================================
+[0. (FORE) FOREWORD]
+
+    All of the work done for this hack is BASED ON the work of C-Dude's
+original "IoG Sprint Button" ROM hack (https://www.romhacking.net/hacks/7295/).
+However, none of his work was used for this patch.
+    All addresses were manually located and changed by me, Josephine Lithius,
+based on what he did and based on what Raeven0 found in the code.
+    The original US ROM values are listed here along with what they do just for
+the sake of transparency and full disclosure.
+
+    For further information, please check the original ROM hack documentation.
+--
+
+[1. (USVA) US ROM VALUES]
+
+    Values located by Raeven0.
+    Values modified and "Sprint if 'Y'" code by C-Dude
+
+[US ROM]
+$02C5FF (If "Attack" is Pressed -> If "Anything" is Pressed)
+ 02 40 00 80 14 C6 -> 02 40 C0 80 08 FC
+
+$02FC08 (Free Space Code (Sprint if "Y")))
+ 02 40 00 80 14 C6    [If attack is pressed, jump to set run mode]
+ AD AE 09             [Load Will's action flags]
+ 89 00 10             [Is Will currently running (Action bit #$1000)?]
+ D0 03                [Branch past the next command if so]
+ 4C 14 C6             [Make Will start running]
+ 4C 05 C6             [Do not allow him to run again while he's still running,
+                                                     to preserve hill behavior]
+
+$0BF5A4, 0BF61C ("Not Used" -> "Sprint  " in Menus)
+ 4D 8E A4 AC A5 A3 84 83 -> 63 A0 A2 88 8D A4 AC AC
+--
+
+[2. (USBV) US BETA ROM VALUES]
+
+    Values located and modified by Josephine Lithius (Jo Li)
+    Transplanted "Sprint if 'Y'" code by C-Dude
+
+$02C562 (If "Attack" is Pressed -> If "Anything" is Pressed)
+ 02 40 00 80 77 C5 -> 02 40 C0 80 F0 FD
+
+$02FDF0 (Free Space Code (Sprint if "Y"))
+ 02 40 00 80 77 C5    [If attack is pressed, jump to set run mode]
+ AD AE 09             [Load Will's action flags]
+ 89 00 10             [Is Will currently running (Action bit #$1000)?]
+ D0 03                [Branch past the next command if so]
+ 4C 77 C5             [Make Will start running]
+ 4C 68 C5             [Do not allow him to run again while he's still running,
+                                                     to preserve hill behavior]
+						     
+$0BF4CE, 0BF53E ("Not Used" -> "Sprint  " in Menus)
+ 4D 8E A4 AC A5 A3 84 83 -> 63 A0 A2 88 8D A4 AC AC
+ 

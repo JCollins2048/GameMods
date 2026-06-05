@@ -1,0 +1,148 @@
+"The Legend of Zelda: ALttP, BS-X Mascot Edition" Changelog
+===============================================================================
+
+v1.0.3 (04/09/2017) -- Second released version!
+[SUMMARY]
+  BohepansTheThird found something I didn't.
+  He also figured out how to actually ACCESS the thing I couldn't figure out.
+
+[FIXES (GIRL VERSION)]
+- Fixed a text overflow when talking to Sahasralah for the FIRST TIME only
+  AFTER getting the Pendant of Courage
+ (I honestly had no idea of how to access this dialogue before now.)
+
+[README]
+- Added another note about using "beat" to apply BPS patches to ROMs
+ (I recently found out beat acts weird if there's a date/time mismatch between
+  a patch and a ROM file.  No big deal.)
+- Added a Special Thanks that I somehow keep forgetting to add: YY!
+ (They made YY-CHR.)
+----------
+
+v1.0.1 (04/01/2017) -- First released version! (No joke.  Waka-waka~)
+[SUMMARY]
+  Hey, guess what I did again?  Oops!
+
+[FIXES (BOY VERSION)]
+- Changed the "wanted" portrait back to the male one
+ (I'd accidentally added it last version when I was fixing the sword thing.)
+----------
+
+v1.0.0 (04/01/2017)
+[SUMMARY]
+  Changed one and fixed one last thing in both versions.
+
+[CHANGES (BOTH VERSION)]
+- Changed the palette of the player's hands when Gloves are equipped
+ (The original silver and green colors are now silver and gold instead.)
+
+[FIXES (BOTH VERSION)]
+- Fixed a VERY weird bug that exclusively appeared during the ending
+ (For some reason, editing the tiles for the Japanese subtitle in certain ways
+  will make the tip of player's sword appear corrupt during "[Player]'s Uncle
+  Recovers" part of the ending.  I relocated one of the tiles to another
+  location and... that seemed to fix it.  And for the curious, what overwrote
+  those tiles is the words "Girl" and "Edition" for the title screen.)
+----------
+
+v0.9.6 (03/31/2017)
+[SUMMARY]
+  Fixed a couple of things I'd missed before.
+
+[CHANGES (GIRL VERSION)]
+- Changed a missed male pronoun to a gender-neutral one in the Tower of Hera
+ (The dialogue where Sahasralah tells you about the Moon Pearl.)
+
+[FIXES (GIRL VERSION)]
+- Changed the "wanted" portrait back to the female one
+ (I'd accidentally added it last version when I updated the title screen.)
+----------
+
+v0.8.4 (03/28/2017)
+[SUMMARY]
+  Customized the title screens of both versions.
+
+[CHANGES (BOTH VERSIONS)]
+- Added "BS-X Mascot  [Gender] Version" to the title screen
+ (This came at the cost of removing the "A Link to the Past" subtitle due to
+  tile limits, since I didn't want to needless expand the ROM.)
+
+[CHANGES (GIRL VERSION)]
+- Changed how the ears of the Bunny Form sat on the upward-facing sprite
+ (Also changed how the hair sat, a little)
+
+[FIXES (GIRL VERSION)]
+- Fixed a text overflow when buying a bottle from the street merchant in
+  Kakariko Village
+----------
+
+v0.7.0 (03/26/2017)
+[SUMMARY]
+  Decided to scrap the existing edited ROMs for personal reasons and started
+  over with fresh ones.  I also started work on the Boy Version of the hack.
+
+[CHANGES (BOY VERSION)]
+- Imported the BS-X Mascot Boy player sprites from The Ancient Stone Tablets
+- Modified the player palettes for all three tunics to match the
+  BS-X Mascot Boy palettes from The Ancient Stone Tablets
+- Replaced Link's "wanted" portrait in the font with a custom
+  BS-X Mascot Boy image
+- Updated the Bunny Form sprites, adding the missing undershirt and adding
+  features of the BS-X Mascot Boy
+
+[CHANGES (GIRL VERSION)]
+- Re-imported the BS-X Mascot Girl player sprites from The Ancient Stone Tablets
+- Re-modified the player palettes for all three tunics to match the
+  BS-X Mascot Girl palettes from The Ancient Stone Tablets
+- Re-replaced Link's "wanted" portrait in the font with a custom
+  BS-X Mascot Girl image
+- Re-replaced all the appropriate pronouns ("he/him") to female or
+  gender-neutral ones
+- Re-updated the Bunny Form sprites
+- Re-updated the palette of the Bunny Form
+- Re-redid the graphics of the Bunny Form sprites so the palette worked better
+  with the Green Tunic palette
+----------
+
+v0.6.0 (03/25/2017)
+[SUMMARY]
+  Decided to was time to edit some bunny sprites.
+
+[CHANGES (GIRL VERSION)]
+- Updated the Bunny Form sprites, adding the missing undershirt and adding
+  features of the BS-X Mascot Girl
+- Updated the palette of the Bunny Form
+- Redid the graphics of the Bunny Form sprites so the palette worked better
+  with the Green Tunic palette
+ (This is a workaround for a palette bug where, under certain conditions,
+  the player would use the Bunny's palette and/or vice-versa)
+----------
+
+v0.4.5 (03/24/2017)
+[SUMMARY]
+  Updated the Wanted picture on the town signpost and worked on replacing some
+  pronouns.
+
+[CHANGES (GIRL VERSION)]
+- Replaced Link's "wanted" portrait in the font with a custom BS-X Mascot Girl
+  image
+- Replaced all the appropriate pronouns ("he/him") to female or gender-neutral
+  ones
+----------
+
+v0.3.0 (03/23/2017)
+[SUMMARY]
+  Started fiddling with the dialogue (girl version).
+
+[CHANGES (GIRL VERSION)]
+- Added some brand new lines of dialogue to reflect the female character
+----------
+
+v0.2.0 (03/22/2017) -- Initial version!
+[SUMMARY]
+  Started work on the Girl Version of the hack.
+
+[CHANGES (GIRL VERSION)]
+- Imported the BS-X Mascot Girl player sprites from The Ancient Stone Tablets
+- Modified the player palettes for all three tunics to match the
+  BS-X Mascot Girl palettes from The Ancient Stone Tablets

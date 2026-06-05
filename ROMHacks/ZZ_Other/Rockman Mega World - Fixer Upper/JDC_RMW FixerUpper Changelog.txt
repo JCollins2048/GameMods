@@ -1,0 +1,100 @@
+Rockman Mega World "Fixer Upper" Changelog
+===============================================================================
+
+v1.0.5 (11/03/2022)
+[SUMMARY]
+  Added the "SRAM patch" to all versions of the game.
+
+_ROCKMAN MEGA WORLD (J), MEGA MAN: THE WILY WARS (E, U) CHANGES_
+- Added "SRAM" patch to all versions of the game that needed it.
+ (It was the only way to get it to run on real hardware... for now.)
+- Fixed the region code on the newly-patched (E) version.
+ (The patch by MottZilla changes it to a USA ROM for some reason.)
+
+_ALL VERSIONS_
+- Fixed the checksum of all ROMs.
+ (Most emulators and some hardware wouldn't care.  I, however, do.)
+
+_README DOCUMENT_
+- Added several more Special Thanks credits.
+ (Forgot to credit Christian Maas for his hex editor!)
+--
+
+v1.0.3 (11/01/2022)
+(NOTE: All patches share the same version number, again.)
+[SUMMARY]
+  Undid an accidental change that made Quick Boomerang go berserk under certain
+  circumstances.  Also made patches for the US versions of the game.
+  
+[CHANGES]
+_ALL VERSIONS_
+- Reverted the "cooldown" value of Thunder Beam / Fire Storm / Item-2 / Item-3
+  from 01 to 08... as this ALSO affects Quick Boomerang.
+ (This is the "secondary cooldown" on Quick Boomerang, used when all
+  projectiles have left the screen.  Setting it to 01 means that at point-blank
+  range, Quick Boomerang fires a projectile EVERY OTHER FRAME.  Oops.
+  Curiously, Needle Cannon DOES NOT use this value for its "re-fire".)
+
+_PATCH FILES_
+- Created patches for the "Genesis Mini" and "Retrobit" USA ROMs.
+ (ONE value being in the wrong place prevents these from being ONE patch.)
+- Added regional labels (J, U, E) to each patch.
+
+_CHANGED ADDRESSES DOCUMENT_
+- Added the USA-GM and USA-RB values for everything.
+ (WHY is the I-Frame value displaced by $18 in the Retrobit ROM...?)
+
+_README DOCUMENT_
+- Added informative descriptions to the document index.
+- Added a credit to the creators of GENS-RR.
+ (It was half of the toolset I used to find the values!)
+--
+
+v1.0.2 (10/29/2022) -- Unreleased
+(NOTE: There's no v1.0.2 patch for the (E) ROM as nothing was changed there.)
+[SUMMARY]
+  Undid an accidental change that made Needle Cannon go berserk.
+  
+[CHANGES]
+_ROCKMAN MEGA WORLD (J) CHANGES_
+- Reverted the "cooldown" value of Needle Cannon from 01 to 08.
+ (That was ENTIRELY an accident.)
+
+_CHANGED ADDRESSES DOCUMENT_
+- Added the CORRECT Europe values for Quick Boomerang and Needle Cannon.
+ (This was an afterthought since I didn't plan to change those values anyway.)
+--
+
+v1.0.1 (10/29/2022) -- Initial Release!
+(NOTE: There's no v1.0.1 patch for the (E) ROM as nothing was changed there.)
+[SUMMARY]
+  Fixed a couple of errors that I'd made with the Japanese version.  Oops.
+  
+[CHANGES]
+_ROCKMAN MEGA WORLD (J) CHANGES_
+- Applied the patch to a CLEAN Japanese ROM and redid the patch dump.
+ (Apparently, I was using a pre-patched ROM without realizing it...)
+- Applied copy protection override / "enable code" on Japanese ROM.
+ (Thanks, gedowski!)
+- Increased the speed of the default weapon by 33% when firing LEFT.
+ (I somehow forgot to apply this code the first time around...)
+--
+
+v1.0.0 (10/29/2022)
+[SUMMARY]
+  Converted some (J) codes to (E) and implemented them into the ROM hacks.
+  
+[CHANGES]
+_GENERAL CHANGES_
+- Converted a bunch of patch codes / values from (J) region to (E) region.
+- Applied copy protection override / "enable code" on Europe ROM.
+ (Allows the modifications to work.  Thanks, Tony Hedstrom!)
+- Changed the enemy I-Frames value from 08 to 01.
+- Increased the speed of the default weapon by 33%.
+ (Thanks again, Tony Hedstrom!)
+- Changed the "cooldown" values of the following weapons from 08 to 01:
+    Rock Buster, Thunder Beam / Fire Storm / Item-2 / Item-3, Item-1,
+    Shadow Blade, Rush (all 3), Magnet Missile, Metal Blade, Search Snake,
+    Spark Shock, Bubble Lead, Hard Knuckle
+   (Thunder Beam, Fire Storm, Item-2, and Item-3 share the same cooldown.)
+- Reduced the "shoot" animation delay from $14 to $10.

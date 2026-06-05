@@ -1,0 +1,13 @@
+Faxanadu "Simple HUD Font" ROM Hack Changelog
+===============================================================================
+
+v1.0.0 (08/15/2023) - Initial Release!
+[SUMMARY]
+  Made the HUD and menu font match the Revision 1 font.  Then, I experimented.
+
+[DETAILS]
+- Copied all of the 1BPP font tiles over to the HUD font
+- Created "bold" and "italic" variants, including a mix of both.
+- Replaced the HUD question mark (?) with the text box question mark.
+ (I couldn't un-see the glaring differences.)
+- Created a "shadow" variant.

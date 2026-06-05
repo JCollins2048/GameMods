@@ -1,0 +1,47 @@
+_MODIFIED ADDRESSES_
+This is all of the ROM addresses that were modified in this hack.
+(NOTE: All addresses and values are in HEXIDECIMAL format.)
+
+Japan   Europe  USA-GM  USA-RB    Orig.   Mod     What Do?
+0001B2  0001B2  0001B2  0001B2    E840    F820    Save data stuff? (Not sure.)*
+0001BA  0001BA  0001BA  0001BA    0001    3FFF    Save data stuff? (Not sure.)*
+00018E  00018E  00018E  00018E    Var.    Var.    ROM checksum value
+00036A  00036A  00036A  00036A    6606    4E71   Disable copy protection?**
+					         (Allows the mods to work.)
+[Lotsa code @ 06E048 to 06E0F9]   Var.    Var.    EEPROM -> SRAM save code*
+                                                 (It's a mess of code.)
+						 
+00B647  00B647  00B647  00B62F    08      01      Disable Enemy I-Frames
+02CFE4  02DDFA  02CFFA  02CFFA    03      04      Faster Buster (right)***
+02CFEC  02DE02  02D002  02D002    FD      FC      Faster Buster (left)***
+02D06B  02D059  02D081  02D06B    08      01      Rock Buster cooldown
+02D42B  02D419  02D441  02D42B    14      10      Shoot animation delay
+03224F  032245  032265  03224F    08      01      Bubble Lead cooldown
+0328AF  0328A5  0328C5  0328AF    08      01      Metal Blade cooldown
+032E61  032E57  032E77  032E61    08      01      Item-1 cooldown
+033771  033767  033787  033771    08      01      Magnet Missile cooldown
+03400D  034003  034023  03400D    08      01      Hard Knuckle cooldown
+0345FD  0345F3  034613  0345FD    08      01      Search Snake cooldown
+0347AF  0347A5  0347C5  0347AF    08      01      Spark Shock cooldown
+034A4F  034A45  034A65  034A4F    08      01      Shadow Blade cooldown
+034E07  034DFD  034E1D  034E07    08      01      Rush Coil cooldown
+035325  03537D  03533B  035325    08      01      Rush Marine cooldown
+035ABD  035B77  035AD3  035ABD    08      01      Rush Jet cooldown
+
+* Code by whoever made the Rockman Mega World "alt" dump,
+  converted into (E) by MottZilla, converted into (U) by Plombo
+** Code by gedowski
+*** (E) code by Tony Hedstrom, conversions by Jo Li
+
+_OTHER ADDRESSES_
+These values CAN be modified, but due to the auto-fire nature of the weapons,
+making them faster causes them to burst-fire.  It's messy, ugly, and cheat-y.
+
+Japan   Europe  USA-GM  USA-RB    Orig.   Mod     What Do?
+ N/A    000368   N/A     N/A      B059    6002    Old anti-copy-prot disable*
+02D357  02D345  02D36D  02D36D    08      N/A     EL, FS, QB**, I2/3 cooldown
+03247B  032471  032491  032491    0C      N/A     Quick Boomerang cooldown
+033561  033557  033577  033577    08      N/A     Needle Cannon cooldown
+
+* Code by Tony Hedstrom
+** Secondary Quick Boomerang cooldown value for when projectiles are cleared
