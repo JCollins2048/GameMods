@@ -1,21 +1,19 @@
 ---
 name: Report an Issue
-about: Found a bug or problem with a ROM hack? Report it here!
+about: Found a bug or problem with a mod? Report it here!
 title: "[Issue]"
 labels: Issue
-assignees: JoLiKMC
+assignees: JCollins2048
 
 ---
 
 <!-- This is the "Bug Report" template, created to report bugs, glitches, issues,
-and other problems with the ROM hacks of this repository. -->
+and other problems with the mods of this repository. -->
 
-## ROM Hack Issue
-### Which ROM hack is this report for?
-- **ROM hack you're using:** 
-- **ROM hack version:** 
-- **Emulator you're using:**
-- **Emulator version:**
+## Mod Issue
+### Which mod is this report for?
+- **Mod you're using:** 
+- **Mod version:** 
 
 ### How do we reproduce the problem?
 1. 
