@@ -1,7 +1,7 @@
 ---
 name: Report an Issue
 about: Found a bug or problem with a mod? Report it here!
-title: "[Issue]"
+title: "[Issue] "
 labels: Issue
 assignees: JCollins2048
 
