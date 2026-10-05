@@ -19,4 +19,5 @@ Various odds and ends for use with the wildham0's *[FFMQ Randomizer](https://git
     - **Styles:** Mystic Quest, MQ NES
 - **Bass** (*Mega Man 7*)
     - **Styles:** Mystic Quest, MQ NES
+
 <small>(\* Mystic Quest-style sprites with an NES-styled palette.)</small>
