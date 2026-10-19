@@ -13,7 +13,7 @@ Various odds and ends for use with the wildham0's *[FFMQ Randomizer](https://git
 - **Mega Man** (*Mega Man*)
     - **Styles:** Mystic Quest, MQ NES\*
 - **Roll** (*Mega Man*)
-    - **Variants: *Mega Man*, *Mega Man 8*, *Mega Man 11***
+    - **Variants:** *Mega Man, Mega Man 8, Mega Man 11*
     - **Styles:** Mystic Quest, MQ NES
 - **Proto Man** (*Mega Man 3*)
     - **Styles:** Mystic Quest, MQ NES
