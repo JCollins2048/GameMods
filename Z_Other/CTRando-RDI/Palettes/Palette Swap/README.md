@@ -2,7 +2,9 @@
 Everyone's exchanged palettes! It's stylistic nightmare!
 
 ### Preview
-<div align="center">![](Images/CTRDIPal-PalSwap_Crono.png) ![](Images/CTRDIPal-PalSwap_Marle.png) ![](Images/CTRDIPal-PalSwap_Lucca.png) ![](Images/CTRDIPal-PalSwap_Frog.png)<br>![](Images/CTRDIPal-PalSwap_Robo.png) ![](Images/CTRDIPal-PalSwap_Ayla.png) ![](Images/CTRDIPal-PalSwap_Magus.png)</div>
+<div align="center">
+  <img src="Images/CTRDIPal-PalSwap_Crono.png"> <img src="Images/CTRDIPal-PalSwap_Marle.png"> <img src="Images/CTRDIPal-PalSwap_Lucca.png"> <img src="Images/CTRDIPal-PalSwap_Frog.png"><br><img src="Images/CTRDIPal-PalSwap_Robo.png"> <img src="Images/CTRDIPal-PalSwap_Ayla.png"> <img src="Images/CTRDIPal-PalSwap_Magus.png">
+</div>
 
 ### Palette Codes
 ```
