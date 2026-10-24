@@ -9,7 +9,7 @@ Random palettes for random people, randomly.
 
 ### Marle
 #### Shadow Form Marle
-![](Images/CTRDIPal-PalSwap_Marle-Alt.png)
+![](Images/CTRDIPal-Shadow_Marle.png)
 
 `#000030#000040#00006800#00600000#68000048#000048#000048#000030#000020#000018#000018`
 
