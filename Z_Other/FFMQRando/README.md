@@ -4,6 +4,12 @@ Various odds and ends for use with the wildham0's *[FFMQ Randomizer](https://git
 
 *(Last updated 10/05/2026)*
 
+## Usage Instructions
+
+- Find the **Custom Player Sprite** menu under **Preferences**
+- Select **Upload Custom Sprites**, then load up any of the PNG files you see here
+- Make whatever other changes to your generation, then generate your modded game
+
 ## Player Skins (`customsprites`)
 
 - **Sumo** (*Final Fantasy Adventure*)
