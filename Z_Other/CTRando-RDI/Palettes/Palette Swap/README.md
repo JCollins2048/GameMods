@@ -2,7 +2,7 @@
 Everyone's exchanged palettes! It's stylistic nightmare!
 
 ### Preview
-![Images/CTRDIPal-PalSwap_Crono.png]() ![Images/CTRDIPal-PalSwap_Marle.png]() ![Images/CTRDIPal-PalSwap_Lucca.png]() ![Images/CTRDIPal-PalSwap_Frog.png]() ![Images/CTRDIPal-PalSwap_Robo.png]() ![Images/CTRDIPal-PalSwap_Ayla.png]() ![Images/CTRDIPal-PalSwap_Magus.png]()
+![](Images/CTRDIPal-PalSwap_Crono.png) ![](Images/CTRDIPal-PalSwap_Marle.png) ![](Images/CTRDIPal-PalSwap_Lucca.png) ![](Images/CTRDIPal-PalSwap_Frog.png) ![](Images/CTRDIPal-PalSwap_Robo.png) ![](Images/CTRDIPal-PalSwap_Ayla.png) ![](Images/CTRDIPal-PalSwap_Magus.png)
 
 ### Palette Codes
 ```
@@ -17,13 +17,13 @@ Lucca as Crono: #291821#FFFFFF#FFCE9C#FF846B#52D6EF#FF8C00#BD0039#47BACC#5F5F5F#
 
 ## Alternate Palettes
 ### Marle as Robo
-![Images/CTRDIPal-PalSwap_Marle-Alt.png]()
+![](Images/CTRDIPal-PalSwap_Marle-Alt.png)
 `#291829#A5FFCE#F7CE7B#BD9431#FFFFFF#F7CE7B#BD9431#5A3921#B3BCBC#4A4A4A#6BA57B#391839`
 
 ### Robo as Ayla (Fleshtones)
-![Images/CTRDIPal-PalSwap_Robo-Alt.png]()
+![](Images/CTRDIPal-PalSwap_Robo-Alt.png)
 `#291821#FFFFFF#FFB594#DE844A#A5FFCE#6BA57B#9C6352#F7CE00#5A3921#99841E#393131#4A3142`
 
 ### Magus as Frog
-![Images/CTRDIPal-PalSwap_Magus-Alt.png]()
+![](Images/CTRDIPal-PalSwap_Magus-Alt.png)
 `#291821#FFFFFF#FFBD31#B5945A#7BF710#52B500#7CA6FF#4A5229#5A84E7#7B8421#2D3319#312129`
