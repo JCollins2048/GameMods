@@ -1,5 +1,5 @@
-## Mega Man and Company by JCollins2048
-Sizzling circuits! Looks like Dr. Wily's latest plot as everyone all mixed up!
+## We Are Rockman by JCollins2048
+Sizzling circuits! Dr. Wily's latest scheme could destroy time, itself! Quick — to the DeLorean! (Er, wait…)
 
 ### Preview
 <div align="center">
@@ -22,3 +22,8 @@ Magus as Dr. Wily: #291821#E2EAF2#EABA91#DA9171#BABABA#919191#CA6950#505050#BA28
 ![](Images/CTRDIPal-MegaMan_Marle-Alt.png)
 
 `#291829#F81800#F0B080#F09060#FFFF4A#E8C800#C88000#904020#F81800#602810#331508#391839`
+
+### Marle as Quake Woman (Archie Comics)
+![](Images/CTRDIPal-MegaMan_Ayla-Alt.png)
+
+`#291821#F0F0F0#F8B080#D07048#D07048#804020#662A2A#471D29#498061#265C44#232824#312131`

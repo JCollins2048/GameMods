@@ -2,7 +2,7 @@
 
 Whatever palettes I came up with for use with the [Rando-Dalton Imperial](https://ctrando.com/) *Chrono Trigger* Randomizer.
 
-*<small>(Last updated on 10/24/2026)</small>*
+*<small>(Last updated on 10/25/2026)</small>*
 
 ## Usage Instructions
 ### The Easy Way
@@ -31,7 +31,12 @@ magus_palette = "12 palette values (HexRGB)"
 
 ## Current List
 ### Themed
-- Palette Swap - Everyone's swapped colors.
+- `PalSwap1` - "Palette Shuffle"
+Everyone exchanges color schemes.
+- ` MegaMan` - "We Are Rockman"
+Color schemes based on Mega Man, Roll, and others.
+- `  CVania` - "Castlevania: Sonata of Temporal Discordance"
+The cast wear *Castlevania* character color schemes.
 
 ### Random
 - Kame-senryū Crono - Feel the power of the Turtle Hermit.

@@ -1,4 +1,4 @@
-## Palette Swap by JCollins2048
+## Palette Shuffle 1 by JCollins2048
 Everyone's exchanged palettes! It's stylistic nightmare!
 
 ### Preview
