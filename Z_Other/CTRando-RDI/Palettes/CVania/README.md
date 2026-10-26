@@ -19,7 +19,7 @@ Frog as "Treffie" Belmont: #1E1E1E#D8E0A8#D08040#985018#D8B068#384000#F80808#D08
 
 ## Alternate Palettes
 ### Crono as Johanthan Morris
-![](Images/CTRDIPal-CVania_Chrono-Alt.png)
+![](Images/CTRDIPal-CVania_Crono-Alt.png)
 
 `#1C152B#E0E0E0#F3CFAC#F39B61#FCD893#F39B61#594969#F31C23#A41C0F#691C08#4C3934#232323`
 
