@@ -11,26 +11,26 @@ Various odds and ends for use with the wildham0's *[FFMQ Randomizer](https://git
 - Make whatever other changes to your generation, then generate your modded game
 
 ### Sumo (*Final Fantasy Adventure*)
-![Game Boy](images/sumomgb0.png) ![NES](images/sumones.png) ![Mystic Quest](images/sumosns.png)
+<img src="images/sumomgb0.png" alt="Game Boy" title="Game Boy"> <img src="images/sumones.png" alt="NES" title="NES"> <img src="images/sumosns.png" alt="Mystic Quest" title="Mystic Quest">
 
 ### Diviner (*Final Fantasy Legend III*)
-![Game Boy](images/divinermgb0.png) ![NES](images/divinernes.png) ![Mystic Quest](images/divinersns.png)
+<img src="images/divinermgb0.png" alt="Game Boy" title="Game Boy"> <img src="images/divinernes.png" alt="NES" title="NES"> <img src="images/divinersns.png" alt="Mystic Quest" title="Mystic Quest">
 
 ### Mega Man (*Mega Man*)
-![Mystic Quest + NES](images/megamanmqnes.png) ![Mystic Quest](images/megamanmqsns.png)
+<img src="images/megamanmqnes.png" alt="Mystic Quest + NES" title="Mystic Quest + NES"> <img src="images/megamanmqsns.png" alt="Mystic Quest" title="Mystic Quest">
 
 ### Roll (*Mega Man*)
 #### *Mega Man*
-![Mystic Quest + NES](images/roll1mqnes.png) ![Mystic Quest](images/roll1mqsns.png)
+<img src="images/roll1mqnes.png" alt="Mystic Quest + NES" title="Mystic Quest + NES"> <img src="images/roll1mqsns.png" alt="Mystic Quest" title="Mystic Quest">
 
 #### *Mega Man 8*
-![Mystic Quest + NES](images/roll8mqnes.png) ![Mystic Quest](images/roll8mqsns.png)
+<img src="images/roll8mqnes.png" alt="Mystic Quest + NES" title="Mystic Quest + NES"> <img src="images/roll8mqsns.png" alt="Mystic Quest" title="Mystic Quest">
 
 #### *Mega Man 11*
-![Mystic Quest + NES](images/roll11mqnes.png) ![Mystic Quest](images/roll11mqsns.png)
+<img src="images/roll11mqnes.png" alt="Mystic Quest + NES" title="Mystic Quest + NES"> <img src="images/roll11mqsns.png" alt="Mystic Quest" title="Mystic Quest">
 
 ### Proto Man (*Mega Man 3*)
-![Mystic Quest + NES](images/protomanmqnes.png) ![Mystic Quest](images/protomanmqsns.png)
+<img src="images/protomanmqnes.png" alt="Mystic Quest + NES" title="Mystic Quest + NES"> <img src="images/protomanmqsns.png" alt="Mystic Quest" title="Mystic Quest">
 
 ### Bass (*Mega Man 7*)
-![Mystic Quest + NES](images/bassmqnes.png) ![Mystic Quest](images/bassmqsns.png)
+<img src="images/bassmqnes.png" alt="Mystic Quest + NES" title="Mystic Quest + NES"> <img src="images/bassmqsns.png" alt="Mystic Quest" title="Mystic Quest">
