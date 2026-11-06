@@ -5,10 +5,12 @@ The archive of palettes itself.
 ## Themed
 - `PalSwap1` - "Palette Shuffle"<br>
 Everyone exchanges color schemes.
-- `MegaMan` - "We Are Rockman"<br>
+- `MegaMan1` - "We Are Rockman 1"<br>
 Color schemes based on Mega Man, Roll, and others.
 - `CVania` - "Castlevania: Sonata of Temporal Discordance"<br>
 The cast wear *Castlevania* character color schemes.
+- `MegaMan2` - "We Are Rockman 2"<br>
+Color schemes based on more Robot Masters. (It's very blue-hued.)
 
 ## Random
 - `CTRDIPal-Kamesen_Crono` - "Kame-senryū Crono"<br>
