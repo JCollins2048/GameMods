@@ -2,8 +2,6 @@
 
 Whatever palettes I came up with for use with the [Rando-Dalton Imperial](https://ctrando.com/) *Chrono Trigger* Randomizer.
 
-*<small>(Last updated on 10/25/2026)</small>*
-
 ## Usage Instructions
 ### The Easy Way
 

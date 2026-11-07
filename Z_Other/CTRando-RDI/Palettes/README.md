@@ -2,6 +2,8 @@
 
 The archive of palettes itself.
 
+*(Last updated on 11/07/2026)*
+
 ## Themed
 - `PalSwap1` - "Palette Shuffle"<br>
 Everyone exchanges color schemes.
@@ -11,6 +13,8 @@ Color schemes based on Mega Man, Roll, and others.
 The cast wear *Castlevania* character color schemes.
 - `MegaMan2` - "We Are Rockman 2"<br>
 Color schemes based on more Robot Masters. (It's very blue-hued.)
+- `CAspects` - "Color Aspects"<br>
+Everyone is just their primary color.
 
 ## Random
 - `CTRDIPal-Kamesen_Crono` - "Kame-senryū Crono"<br>
